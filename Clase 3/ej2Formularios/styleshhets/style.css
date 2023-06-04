@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+#primerForm{
+    background-color: #031a47;    
+    border: solid 1px;
+    border-radius: 5px;
+    color: white;
+}
+.inputNames{
+    border: 6px solid #4267B2;
+    border-radius: 25%;
+}
+.classborder{
+    background-color: rgb(7, 14, 114);
+    border: solid 1px white;
+    border-radius: 0%;
+    color: rgb(240, 240, 240);
+}
+form{
+    text-align: center;
+    width: 500px;
+    display: 50%;
+}
+#edad-input{
+    width: 180px;
+}
+#nombre-input{
+    width: 200px;
+}
+.titulo{
+    background-color: #4267B2;
+    color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 12px;
+}

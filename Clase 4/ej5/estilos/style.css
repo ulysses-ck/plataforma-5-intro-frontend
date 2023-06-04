@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+img{
+    width: 30%;
+    margin: 1.5%;
+}
+p{
+    margin-left: 1.5%;
+    font-size: 40px;
+    font-family: "Roboto Condensed";
+    border-bottom: 2px red solid;
+    padding-bottom: 10px;
+    width:30%;
+}

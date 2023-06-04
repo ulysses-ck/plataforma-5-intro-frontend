@@ -1,0 +1,64 @@
+body{
+	background-color: #326273;
+}
+h1{
+	color: rgb(227,151,116);
+}
+h2{
+	color: #EEEEEE;
+}
+li{
+	color: rgb(0,119,8);
+}
+#bordeado{
+	border: 3px solid red;
+}
+.aloha{
+	background-color: #BFAB25;
+}
+input{
+	border: 2px dashed lime;
+}
+div p{
+	font-size: 300%
+}
+input[type=text] {
+    border: none;
+    border-bottom: 4px solid #8842d5;
+    background-color: yellow;  
+}
+a:visited{
+	color: green;
+}
+div:nth-of-type(3n) p{
+	background-color: blue;
+}
+div:nth-of-type(3n) p:nth-of-type(2n){
+	border: white solid 4px;
+}
+div:nth-of-type(3n) span{
+	background-color: white;
+}
+input:checked{
+	margin-left: 60px; 
+}
+label{
+	text-transform: uppercase;
+}
+#ultimo::first-letter{
+	font-size: 400%;
+	background-color: red;
+}
+.ejercicio2_clase4{
+	background-color: black;
+	color: white;	
+}
+p:hover{
+	color: red;
+}
+button:active{
+	background-color: yellow;
+}
+input:focus{
+	border: solid 6px green;
+}

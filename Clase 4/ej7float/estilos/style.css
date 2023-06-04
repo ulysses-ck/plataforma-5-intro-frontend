@@ -1,0 +1,41 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Consolas';
+}
+#navbar{
+    background-color: #8AA399;
+    padding: 10px;
+    border: #8AA399 solid 1px;
+    border-radius: 20px;
+}
+a{
+    padding-right: 8px;
+}
+#contenido{
+    width: 70%;
+    background-color: #EDF7F6;
+    float: left;
+    border: #EDF7F6 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#sidebar{
+    width: 30%;
+    background-color: #F19953;
+    float: left;
+    border: #F19953 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    background-color: white;
+    color: #8AA399;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+a:hover{
+    color: black;
+}

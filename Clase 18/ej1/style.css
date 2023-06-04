@@ -1,0 +1,10 @@
+body{
+    background: rgba(25, 25, 165, 0.712);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.phrase{
+    color: cyan;
+    background: rgba(35, 35, 53, 0.712);
+}

@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(16, 4, 122);
+    color: white;
+    font-family: "consolas";
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.card{
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
+.layer-image{
+    height: 270px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.card-body{
+     width: 100%;
+     height: 100%;
+}
+.card-footer{
+    background-color: rgb(6, 2, 41);
+    color: white;
+}
+.row{
+    margin: 20px auto;
+    padding: 50px;
+}
+img.card-img-top{
+    border-radius: 50%;
+}
+img.card-img-top:hover, .card:hover{
+    transition: 1s;
+    border-radius: 10%;
+    background-color: rgb(143, 122, 7);
+    color: rgb(255, 255, 255);
+}
+.btn-publicar{
+    background-color: rgb(82, 82, 248);
+    color: white;
+}
+.btn-publicar:hover{
+    background-color: yellow;
+    color: black;
+}
+div.img-fix{
+    height: 50px;
+}
+#imglogo{
+    height: 80%;
+}
+.img-background{
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+footer{
+    margin-top:50px;
+    width:100%;
+}

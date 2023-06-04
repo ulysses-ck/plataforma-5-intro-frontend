@@ -1,0 +1,14 @@
+.color{
+    background-color: blue;
+}
+.resaltado{
+    background-color: yellow;
+    color: red;
+}
+.oculto{
+    display: none;
+}
+div.card img{
+    width: 255px;
+    height: 255px;
+}

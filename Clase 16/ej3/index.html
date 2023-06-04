@@ -1,0 +1,55 @@
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>HTML Document</title>
+<style>
+    body ::selection{
+        background-color: chartreuse;
+        color: white;
+    }
+</style>
+</head>
+<body>
+<div id="everything">
+    <h1>A heading!</h1>
+    <p>Here's some text!</p>
+    <p>Here's a second set of text!</p>
+    <div class="holder">
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    </div>
+    <div class="holder">
+    <ol>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+        <li>List Item 6</li>
+    </ol>
+    </div>
+    <div id="change-me">This part needs to change!</div>
+    <div id="secret">We should hide this!</div>
+</div>
+<script src="../../assets/js/jquery-3.5.1.min.js"></script>
+<script>
+  var a = 4;
+  console.log(a)
+  
+  let h1 = $("h1").css("color","blue")
+  $("#everything").css("fontSize", "24px").css("fontFamily", "Consolas")
+  $(".holder").css("border", "solid 10px black").css("margin", "5px")
+  $("ul>li").html("<li><strong>List item</strong></li>")//acá
+  $("ul li").html("<li><b>Segundo Cambio</b></li>")//Encuentra las diferencias. xd
+  $("p").css("color", "green")
+  $("#secret").hide()
+  $("#secret").show()
+  $("#change-me").text("Oh *** here we go again")
+  $("#change-me").append("<br>").append("Esto es nuevo!!! :V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V:V")//Funciona!
+  $("#change-me").html("<p>+ cambios</p><br><p>Más cambios</p>").css("color","red")
+  $("#change-me").append("<p>soy Nuevo aqui [:-(</p>")
+  $("li").text("magically changed")
+  $("li").append(" :-) more text .jpg")
+  $("#everything").append("<ul><li>1 list item</li><li>2 list item</li><li>3 list item</li></ul>")
+  $("#everything ul li").css("display", "block").css("background", "blue")
+  </script>
+</body></html>

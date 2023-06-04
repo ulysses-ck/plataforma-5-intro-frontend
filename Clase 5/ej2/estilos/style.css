@@ -1,0 +1,15 @@
+.verde{
+    background-color: lime;
+    border: 1px solid orange;
+}
+.blue{
+    background-color: rgb(27, 27, 216);
+    color: white;
+}
+.blue-marine{
+    background-color: rgb(6, 6, 46);
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+}

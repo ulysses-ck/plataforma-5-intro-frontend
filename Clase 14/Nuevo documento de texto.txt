@@ -1,0 +1,17 @@
+let body = document.querySelector("body")
+        let enter = document.querySelector("button")
+        let inputTecla = document.querySelector("input")
+
+        enter.addEventListener("click", function() {
+            let input = document.querySelector("#color").value
+            if (input != null) {
+                body.style.backgroundColor = input
+            }
+        })
+
+        inputTecla.addEventListener("keydown", function(e) {
+
+            if (e.keyCode == 8) {
+                body.style.backgroundColor = "white"
+            }
+        })

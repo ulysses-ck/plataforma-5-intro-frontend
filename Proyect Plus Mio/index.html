@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="asssets/css/style.css">
+</head>
+<body onload="reloj()">
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navQuieto">
+    <a class="navbar-brand" href="../index.html">App  <span class="abduzcan">Reloj</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    </nav>
+</div>
+<div class="bckgrnd" style="width: auto; height: 100px;">
+</div>
+<div class="container">    
+    <div class="horaActual">
+        <h2 id="horaPMostrar" class="abduzcan"></h2>
+    </div>
+    <div class="cronometro">
+        <button type="button" id="initCrono" class="btn btn-dark btn-lg btn-block">Cronometro</button>
+        <div class="functions">
+            <div class="cronoMostrar"></div><br>
+            <button type="button" id="start" class="btn btn-primary btn-non-visible"">Comenzar</button>
+            <button type="button" id="stop" class="btn btn-primary btn-non-visible"">Detener</button>
+            <button type="button" id="restart" class="btn btn-primary btn-non-visible"">Reiniciar</button>
+        </div>
+    </div>
+</div>
+<script src="../assets/js/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="asssets/js/index.js"></script>
+</body>
+</html>

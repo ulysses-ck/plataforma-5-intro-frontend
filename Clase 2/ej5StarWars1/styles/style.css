@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.color-imperio{
+    background-color: red;   
+}
+.color-rebeldes{
+    background-color: blue;
+}
+#darthVader{
+    font-size: 50px;
+}
+.rebeldes-bordes{
+    border: 5px dashed;
+
+}
+.unid-apoyo{
+    text-align:  center;
+
+}
+.navesUpper{
+    text-transform: uppercase;
+
+}

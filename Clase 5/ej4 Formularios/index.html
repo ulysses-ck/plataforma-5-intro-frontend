@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formularios Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="../../estilos_raiz/style.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="nombre">N0Mbr3</label>
+                <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ponele tu nombre" name="Nombre">
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email" placeholder="Tu gmail o yahoo">
+              <small id="emailHelp" class="form-text text-muted">Si voy a ver tu email, asi que no pongas tu contraseña real</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu contraseña ponela acá" name="Contraseña">
+              <small id="emailHelp" class="form-text text-muted">Si voy a ver tu contraseña, asi que no pongas tu contraseña real</small>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Bases_Condiciones">
+              <label class="form-check-label" for="exampleCheck1">Acepto las bases y condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <br>
+    </div>
+    <br>
+    <div>
+        <footer>
+            <a class="button_footer" style="font-size: 15px;" title="Aprende a crear un blog" href="../../index.html">
+                <span class="dashicons dashicons-admin-generic">
+                    <img src="../../assets/ico_home.png" alt="" class="img_fix_raiz">
+                </span>
+                </a>
+        </footer>
+    </div>
+</body>
+</html>

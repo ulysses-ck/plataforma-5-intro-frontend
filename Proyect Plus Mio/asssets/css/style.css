@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+body ::selection{
+    background: rgba(3, 3, 54, 0.596);
+    color: rgb(179, 179, 24);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    font-family: "consolas";
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+.abduzcan:hover{
+    background-color: black;
+    color: lime;
+}
+.wrapper{
+    background: linear-gradient(200deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 0.5s ease infinite;
+    -z-animation: rainbow 0.5s ease infinite;
+    -o-animation: rainbow 0.5s ease infinite;
+    animation: rainbow 0.5s ease infinite;
+}
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+.navbar{
+    position: fixed;
+}
+.functions, .btn-non-visible{
+    display: none;
+}
+.cronoMostrar{
+    font-size: 28px;
+}

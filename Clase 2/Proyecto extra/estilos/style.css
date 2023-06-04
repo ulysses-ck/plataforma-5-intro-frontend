@@ -1,0 +1,29 @@
+img.pequeña{
+    width: 360px;
+    height: 360px;
+    text-align: center;
+}
+body{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: "consolas";
+    font-size: 50px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: rgb(238, 27, 27);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(1, 255, 77);
+    background-color: white;
+    text-decoration: none;
+}
+a.links{
+    font-size: 50px;
+    text-decoration: none;
+}
